@@ -1,0 +1,47 @@
+.films-entre-annees-acteur-container {
+    background: none; /* Removed background color */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 255, 0, 0.5); /* Green glow effect */
+    border: 2px solid rgba(0, 255, 0, 0.5); /* Green border */
+}
+
+.films-entre-annees-acteur-container label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.films-entre-annees-acteur-container input {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.films-entre-annees-acteur-container button {
+    padding: 10px 15px;
+    border: none;
+    background: #007bff;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.films-entre-annees-acteur-container button:hover {
+    background: #0056b3; /* Darker blue on hover */
+}
+
+.films-entre-annees-acteur-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.films-entre-annees-acteur-container li {
+    margin-bottom: 10px;
+    font-size: 16px;
+    line-height: 1.5;
+}

@@ -1,0 +1,12 @@
+/* src/pages/realisateurs/realisateurs.css */
+
+/* Adjust the main content to use Flexbox for better layout */
+.main-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex: 1; /* Allow the main content to take available space */
+    margin-top: 20px;
+}
+
+

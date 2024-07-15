@@ -1,0 +1,42 @@
+/* home.css */
+
+@keyframes slidein {
+  from {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+}
+
+.decorated-button {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  background-color: #007bff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border: 2px solid #007bff;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: #0056b3;
+  }
+}
+
+p {
+  animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: 1;
+}
